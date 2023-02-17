@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html">
+    <title> Assignment 3 </title>
+	<script>
+		//Task 4
+		function cat(){ 
+    		var displayField = document.getElementById("display");    
+    		displayField.value = "User clicks Cat";
+    		var displaySpan = document.getElementById("message");
+    		displaySpan.innerHTML = "Cat is clicked";
+  			var image = document.getElementById("image");
+  			image.src = "cat.jpg";
+		}
+		function dog(){ 
+    		var displayField = document.getElementById("display");    
+    		displayField.value = "User clicks Dog";
+    		var displaySpan = document.getElementById("message");
+    		displaySpan.innerHTML = "Dog is clicked";
+  			var image = document.getElementById("image");
+  			image.src = "dog.jpg";
+		}
+		function fish(){ 
+    		var displayField = document.getElementById("display");    
+    		displayField.value = "User clicks Fish";
+    		var displaySpan = document.getElementById("message");
+    		displaySpan.innerHTML = "Fish is clicked";
+  			var image = document.getElementById("image");
+  			image.src = "fish.jpg";
+		}
+    </script>	
+	<style> 
+		/* Task1 */
+		.task1{
+			font-family: Arial, Helvetica, sans-serif;
+			color: darkblue;
+			background-color:aliceblue;
+			padding: 10px 30px;
+			border: 1px solid;}
+		h2{
+			color: black;}
+		h3{
+			color:dimgrey;
+			font-style: italic;}
+		/* Task2 */
+		#task2 {
+			font-family: Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: 100%;}
+		#task2 td, #task2 th {
+  			border: 1px #ddd;
+			border-style: dotted;
+  			padding: 8px;}
+		#task2 td {
+  			color: darkblue}
+		#task2 tr:nth-child(even){
+			background-color: #f2f2f2;}
+		#task2 tr:hover {
+			background-color: #ddd;}
+		#task2 th {
+  			padding-top: 12px;
+  			padding-bottom: 12px;
+  			text-align: left;
+			font-style: italic;
+			text-transform: uppercase;
+  			background-color: darkblue;
+  			color:aliceblue;}		
+		/* Task3 */
+		#task3 {
+			font-family: Arial, Helvetica, sans-serif;
+			border: 1px solid green;
+			border-spacing: 10px;
+			width: 100%;}
+		#task3 td, #task3 th {
+  			border: 1px orange;
+			border-style: dotted;
+  			padding: 8px;}
+		#task3 th {
+  			padding-top: 12px;
+  			padding-bottom: 12px;
+		}		
+	</style>
+</head>
+<body>
+    <!-- Task 1 -->
+	<h1>Task 1</h1>
+	<div class="task1">
+		<h1>7892160 Kaye Keogh</h1>
+		<h2>COMP804: Web Security</h2>
+		<h3>Assignment 1, due at the end of Week 5</h3>
+	</div>
+	<br><br>
+	<hr>
+	<br><br>
+
+    <!-- Task 2 -->
+	<h1>Task 2</h1>
+	<table id="task2">
+		<tr>
+			<th>
+				Activity
+			</th>
+			<th>
+				Date
+			</th>
+		</tr>
+		<tr>
+			<td>
+				First day to enrol for re-enrolling (continuing students)
+			</td>
+			<td>
+				22 November 2021
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Orientation
+			</td>
+			<td>
+				During Week of 18 July 2022
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Lectures Commence (weeks1-9)
+			</td>
+			<td>
+				25 July - 23 September 2022
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Last day to enrol / add subjects yourself
+			</td>
+			<td>
+				05 August 2022
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Last day to enrol / add subjects with Head of Students approval
+			</td>
+			<td>
+				12 August 2022
+			</td>
+		</tr>
+	</table>
+	<br><br>
+	<hr>
+	<br><br>
+  
+	<!-- Task 3 -->
+	<h1>Task 3</h1>
+	<table id="task3">
+		<tr>
+			<th>
+				Name
+			</th>
+			<th>
+				Health benefit
+			</th>
+		</tr>
+		<tr>
+			<td>
+				Apple<br><br>
+				<img src="apple.jpg" width="200px">
+			</td>
+			<td>
+				These help you manage your blood sugar levels, promote good digestion, and support gut and heart health.<br><br>
+				<a href="https://www.healthline.com/nutrition/healthy-fruit#1.-Apples" target="_blank">Healthline: 20 Healthy Fruits That Are Super Nutritious</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Lemon<br><br>
+				<img src="lemon.jpg" width="200px">
+			</td>
+			<td>
+				Lemons are a citrus fruit that people often use in traditional remedies because of their health benefits. Like other citrus fruits, they contain vitamin C and other antioxidants.<br><br>
+				<a href="https://www.medicalnewstoday.com/articles/324431#lemons" target="_blank">Medical News Today: Top 12 healthful fruits</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Grapefruit<br><br>
+				<img src="grapefruit.jpg" width="200px">
+			</td>
+			<td>
+				Adding grapefruit to your diet may decrease your risk of insulin resistance, a precursor to type 2 diabetes, according to past research.<br><br>
+				<a href="https://www.everydayhealth.com/diet-nutrition-pictures/the-healthiest-power-fruits-next-door.aspx" target="_blank">Everyday Health: 10 Ordinary Fruits With Amazing Health Benefits</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Spinach<br><br>
+				<img src="spinach.jpg" width="200px">
+			</td>
+			<td>
+				Spinach also boasts antioxidants, which may help reduce your risk of disease.<br><br>
+				<a href="https://www.healthline.com/nutrition/14-healthiest-vegetables-on-earth" target="_blank">Healthline: The 14 Most Nutrient Dense Vegetables</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Carrot<br><br>
+				<img src="carrot.jpg" width="200px">
+			</td>
+			<td>
+				Carrots are full of phytochemicals, such as beta-carotene, that your body converts to vitamin A, which helps with vision — especially at night.<br><br>
+				<a href="https://www.goodhousekeeping.com/health/diet-nutrition/g28556528/healthiest-vegetables/" target="_blank">Good Housekeeping: Healthline: The 14 Most Nutrient Dense Vegetables</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Mango<br><br>
+				<img src="mango.jpg" width="200px">
+			</td>
+			<td>
+				In particular, mangoes are high in mangiferin, a potent antioxidant.<br><br>
+				<a href="https://www.healthline.com/nutrition/healthy-fruit#6.-Mango" target="_blank">Healthline: 20 Healthy Fruits That Are Super Nutritious</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Banana<br><br>
+				<img src="banana.jpg" width="200px">
+			</td>
+			<td>
+				Bananas are well known for their high potassium content. Potassium helps the body control heart rate and blood pressure.<br><br>
+				<a href="https://www.medicalnewstoday.com/articles/324431#bananas" target="_blank">Medical News Today: Top 12 healthful fruits</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Blueberries<br><br>
+				<img src="blueberries.jpg" width="200px">
+			</td>
+			<td>
+				This fruit may also keep your mind sharp — past research has linked blueberries to improving memory and learning, thanks in part to the anti-inflammatory effects of anthocyanin.<br><br>
+				<a href="https://www.everydayhealth.com/diet-nutrition-pictures/the-healthiest-power-fruits-next-door.aspx" target="_blank">Everyday Health: 10 Ordinary Fruits With Amazing Health Benefits</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Brussels sprouts<br><br>
+				<img src="sprouts.jpg" width="200px">
+			</td>
+			<td>
+				Brussels sprouts also boast kaempferol, an antioxidant that may be particularly effective in preventing cell damage.<br><br>
+				<a href="https://www.healthline.com/nutrition/14-healthiest-vegetables-on-earth#TOC_TITLE_HDR_6" target="_blank">Healthline: The 14 Most Nutrient Dense Vegetables</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Broccoli<br><br>
+				<img src="broccoli.jpg" width="200px">
+			</td>
+			<td>
+				One half cup of raw, chopped broccoli provides 43% of the daily value of vitamin C.<br><br>
+				<a href="https://www.goodhousekeeping.com/health/diet-nutrition/g28556528/healthiest-vegetables/" target="_blank">Good Housekeeping: Healthline: The 14 Most Nutrient Dense Vegetables</a>
+			</td>
+		</tr>
+	</table>
+	<br><br>
+	<hr>
+	<br><br>
+	  
+	<!-- Task 4 -->
+	<h1>Task 4</h1>
+	<button onClick="cat();">
+		Cat
+	</button>
+	<button onClick="dog();">
+		Dog
+	</button>
+	<button onClick="fish();">
+		Fish
+	</button>
+	<br><br>
+	<input type="text" id="display" size="30">
+	<br><br>
+	<span id="message"></span>
+	<br><br>
+	<img id="image"/>
+	<br><br>
+	<hr>
+</body>
+</html>
